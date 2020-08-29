@@ -6,3 +6,8 @@ window.onscroll = () => {
         window.onscroll = undefined;
     }
 }
+
+// Setting the current year where necessary.
+Array.from(document.querySelectorAll(".year")).forEach(e => 
+    e.innerText = new Date().getFullYear()
+);

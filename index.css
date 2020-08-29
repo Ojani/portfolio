@@ -102,6 +102,14 @@ body {
     cursor: pointer;
 }
 
+.divide {
+    width: 90%;
+    margin: 50px 0;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
 .section-title {
     text-align: center;
     font-size: 60px;
@@ -204,6 +212,19 @@ body {
     transform: rotateY(360deg);
 }
 
+
+
+.footer {
+    padding: 20px;
+    color: #666;
+    border-top: 2px solid #CCC;
+    margin: 100px 20px 0 20px;
+}
+
+.cr-txt {
+    text-align: center;
+}
+
 @media only screen and (max-width: 1365px) {
     .skills {
         padding: 0 5%;
@@ -288,8 +309,4 @@ body {
     .hero-title {
         font-size: 35px;
     }
-
-    /*.projects-btn {
-        font-size: 20px;
-    } */
 }
