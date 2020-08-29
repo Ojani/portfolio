@@ -208,6 +208,9 @@ body {
     .skills {
         padding: 0 5%;
     }
+    .skills > .flex-break {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1175px) {
