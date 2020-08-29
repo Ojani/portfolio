@@ -15,6 +15,10 @@ body {
     user-select: none;
 }
 
+.flex-break {
+    flex-basis: 100%;
+}
+
 .nav-bar {
     position: fixed;
     left: 0;
@@ -74,19 +78,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.hero-image {
+    background-image: url("assets/puerto_rico_mountain.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
     width: 100%;
     height: 100vh;
 }
 
-.hero-content {
-    position: absolute;
-}
-
 .hero-title {
-    font-size: 8vw;
+    font-size: 90px;
     color: white;
     text-shadow: 0 .1em .1em rgba(0,0,0,.5);
 }
@@ -114,8 +114,8 @@ body {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding: 0 20%;
     position: relative;
+    padding: 0 10%;
 }
 
 .skill-card-wrapper {
@@ -202,4 +202,36 @@ body {
 
 .skill-card-wrapper:hover .skill-card-back {
     transform: rotateY(360deg);
+}
+
+@media only screen and (max-width: 1365px) {
+    .skills {
+        padding: 0 5%;
+    }
+}
+
+@media only screen and (max-width: 1175px) {
+    .skills {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 665px) {
+    .hero-title {
+        font-size: 70px;
+    }
+
+    .skill-card-wrapper {
+        margin: 20px 0;
+    }
+}
+
+@media only screen and (max-width: 515px) {
+    .hero-title {
+        font-size: 50px;
+    }
+
+    .projects-btn {
+        font-size: 25px;
+    }
 }
