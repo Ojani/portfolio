@@ -223,13 +223,13 @@ body {
     .hero-title {
         font-size: 70px;
     }
-
-    .skill-card-wrapper {
-        margin: 20px 0;
-    }
 }
 
 @media only screen and (max-width: 515px) {
+    .skill-card-wrapper {
+        margin: 20px 0;
+    }
+    
     .hero-title {
         font-size: 50px;
     }
