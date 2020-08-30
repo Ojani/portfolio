@@ -5,7 +5,7 @@
     "icons": [
       {
         "src": "/assets/icons/ojani-logo.png",
-        "type": "image/png",
+        "type": "image/png"
       }
     ],
     "start_url": ".",
