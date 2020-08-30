@@ -1,0 +1,15 @@
+{
+    "short_name": "Ojani's Portfolio",
+    "name": "Ojani's Portfolio",
+    "description": "I am Ojani Figueroa Cruz's Web Dev portfolio.",
+    "icons": [
+      {
+        "src": "/assets/icons/ojani-logo.png",
+        "type": "image/png",
+      }
+    ],
+    "start_url": ".",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "theme_color": "#ffffff"
+  }
