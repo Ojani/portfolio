@@ -15,6 +15,11 @@ body {
     user-select: none;
 }
 
+img {
+    pointer-events: none;
+    user-select: none;
+}
+
 .flex-break {
     flex-basis: 100%;
 }
@@ -190,7 +195,7 @@ body {
 }
 
 .skill-title {
-    font-size: 40px;
+    font-size: 35px;
     margin: .2em 0;
     padding: .1em 0;
     border-bottom: 2px solid white;
@@ -208,6 +213,10 @@ body {
 
 .skill-list li {
     font-size: 20px;
+}
+
+.skill-card-back ul {
+    margin-bottom: 0;
 }
 
 .skill-card-wrapper:hover .skill-card-back {
