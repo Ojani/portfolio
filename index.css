@@ -287,7 +287,22 @@ img {
     border: 2px solid white;
     white-space: nowrap;
     cursor: pointer;
+    pointer-events: none;
 }
+
+
+/* This code here allows for the link to only be clicked after activating the hover effect. This is cricial for moble devices so that they dont click on the link before showing the hover state of the element. */
+/* ================================ */
+.project-card:hover .project-link {
+    animation: allowClick .01s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes allowClick {
+    0% { pointer-events: none; }
+    100% { pointer-events: initial; }
+}
+/* ================================ */
 
 .node-chat-project, .ttt-project {
     background: #DDD;
