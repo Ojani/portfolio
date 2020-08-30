@@ -141,6 +141,7 @@ body {
     transition: transform 1s;
     box-shadow: 0 2px 8px rgba(0,0,0,.5);
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 .skill-card {
