@@ -91,8 +91,9 @@ body {
     text-shadow: 0 .1em .1em rgba(0,0,0,.5);
 }
 
-.projects-btn {
+.contact-btn {
     padding: .2em 1em;
+    text-decoration: none;
     background: #1588FF;
     color: white;
     font-size: 30px;
@@ -369,7 +370,7 @@ body {
         font-size: 60px;
     }
 
-    .projects-btn {
+    .contact-btn {
         font-size: 27px;
     }
 
@@ -402,7 +403,7 @@ body {
         font-size: 50px;
     }
 
-    .projects-btn {
+    .contact-btn {
         font-size: 25px;
     }
 
@@ -424,7 +425,7 @@ body {
         font-size: 40px;
     }
 
-    .projects-btn {
+    .contact-btn {
         font-size: 20px;
     }
 
