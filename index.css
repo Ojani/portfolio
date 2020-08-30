@@ -138,7 +138,7 @@ body {
 }
 
 .skill-card-wrapper > div {
-    transition: transform 1s;
+    transition: transform .8s;
     box-shadow: 0 2px 8px rgba(0,0,0,.5);
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
