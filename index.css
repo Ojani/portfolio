@@ -337,6 +337,18 @@ img:not(.insta-josue) {
     font-size: 16px;
 }
 
+.link-josue {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.insta-josue {
+    width: 1.5em;
+    transform: translateY(25%);
+    margin-left: .25em;
+}
+
 .about-subtitle {
     font-size: 30px;
     text-align: center;
