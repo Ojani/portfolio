@@ -15,7 +15,7 @@ body {
     user-select: none;
 }
 
-img {
+img:not(.insta-josue) {
     pointer-events: none;
     user-select: none;
 }
