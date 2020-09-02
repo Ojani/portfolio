@@ -321,11 +321,20 @@ img {
     border: 2px solid black;
 }
 
-.about-laptop-img {
+.about-laptop-wrapper {
     width: 400px;
     margin-left: 50%;
     transform: translateX(-50%);
     margin-top: 80px;
+}
+
+.about-laptop-img {
+    width: 100%
+}
+
+.about-laptop-caption {
+    color: #777;
+    font-size: 16px;
 }
 
 .about-subtitle {
@@ -385,7 +394,7 @@ img {
         width: 500px;
     }
 
-    .about-laptop-img {
+    .about-laptop-wrapper {
         margin-top: 50px;
     }
 }
@@ -463,8 +472,12 @@ img {
         width: 220px;
     }
 
-    .about-laptop-img {
+    .about-laptop-wrapper {
         width: 300px;
+    }
+
+    .about-laptop-caption {
+        font-size: 14px;
     }
 }
 
